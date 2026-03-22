@@ -1,1 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian</title>
+  <style>
+    *{box-sizing: border-box;}
+    
 
+
+    .container {
+      width: 400px;
+      height: 500px;
+      background-color: pink;
+      position: absolute;
+      
+    }
+
+
+    .box1 {
+      background: #E63946;
+      width: 60%;
+      height: 300px;
+      border: 8px solid black;
+      float: left;  
+      
+    }
+
+    .box2{
+      background: #F1C40F;
+      width: 40%;
+        height: 150px;
+        border: 8px solid black;
+        float: right;
+        top: 0; 
+    }
+
+    .box3 {
+      background: white;
+      border-color: white;
+      border: 8px solid black;
+      width: 20%    ;
+      height: 150px; 
+      float: right;
+    }
+
+    .box4{
+      background: white;
+      border-color: white;
+      border: 8px solid black;
+      width: 20%    ;
+      height: 150px; 
+      float: right;
+      flex: right;
+    }
+
+    .box5{
+      background: #000000;
+      border: 8px solid black;
+      border-color: white;
+      border: 8px solid black;
+      width: 30%    ;
+      height: 200px; 
+      float: left;
+      flex: left;
+    }
+
+    .box6{
+      background: hsl(0, 0%, 100%);
+      border: 8px solid black;
+      border-color: white;
+      width: 40%    ;
+      height: 200px; 
+      flex: left;
+
+    }
+
+    .box7{
+      background: #F8F9FA;
+      border: 8px solid black;
+      border-color: black;
+      position: fixed;
+      top: 305px;
+      left: 6.5%;
+      width: 8%    ;
+      height: 105px; 
+      flex: left;
+
+    }
+
+    .box8{
+      background: #F8F9FA;
+      border: 8px solid black;
+      border-color: black;
+      border-bottom: 14px solid black;
+      position: fixed;
+      top: 402px;
+      left: 6.5%;
+      width: 8%    ;
+      height: 105px; 
+      flex: left;
+    }
+
+
+    .box9{
+      background: #F8F9FA;
+      border: 8px solid black;
+      border-color: black;
+      position: fixed;
+      top: 402px;
+      left: 14.25%;
+      width: 7%    ;
+      height: 105px; 
+      flex: right;
+    }
+
+    .box10{
+      background: #1D4ED8;
+      border: 8px solid black;
+      border-color: black;
+      width: 45%    ;
+      height: 100px; 
+      float: right;
+      flex: right;
+    }
+
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="box1"></div>
+  <div class="box2"></div>
+  <div class="box3"></div>
+  <div class="box4"></div>
+  <div class="box5"></div>
+  <div class="box6"></div>
+  <div class="box7"></div>
+  <div class="box8"></div>
+  <div class="box9"></div>
+  <div class="box10"></div>
+</div>
+
+</body>
+</html>
